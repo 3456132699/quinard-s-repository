@@ -27,4 +27,17 @@
 
 # 三种回滚操作
 1. 在工作区
-   
+     - **status回车后的含义**
+      staged在暂存区内
+    not staged尚未暂存，还在工作区 
+    nothing to commit, working tree clean说明没有修改
+ - 查看修改内容
+   `git diff`
+   >j下移  k上移  f下翻页  g上翻页 q退出此页面
+- 撤销修改
+  `git restore test.md`
+  `git resore .`
+  > .表示回滚一整个目录
+2. 在暂存区
+   - 
+
